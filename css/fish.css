@@ -1,0 +1,45 @@
+*{
+	padding:0;margin:0;
+}
+body{
+	width:100%;
+	height:100%;
+	background: black;
+	font: 12px/1.5 "helvetica neue",arial,sans-serif;
+}
+body .hole{
+	width:1024px;
+	height:768px;
+	margin:0 auto;
+	border:1px solid green;
+}
+body .hole .huabubu{
+	background:url(../image/game_bg_2_hd.jpg) ;
+
+}
+body .hole .jian{
+	position:absolute;
+	top:740px;
+	left:635px;
+	width:38px;
+	height:30px;
+	background: url(../image/bottom.png) -134px -74px;
+	/*background: url(../image/bottom.png) -90px -74px;*/
+}
+body .hole .jia{
+	position:absolute;
+	top:740px;
+	left:775px;
+	width:38px;
+	height:30px;
+	background: url(../image/bottom.png) -46px -74px;
+	/*background: url(../image/bottom.png) -2px -74px*/
+}
+body .hole  .qian{
+	position: absolute;
+	top:705px;
+	left:680px;
+	width:74px;
+	height:65px;
+	background: url(../image/cannon1.png)0 0
+}
